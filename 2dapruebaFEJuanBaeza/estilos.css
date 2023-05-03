@@ -1,0 +1,135 @@
+.tabla-estilizada {
+    
+    width: 100%;
+    background-color: #f0bf10;
+    top: 50px;
+  }
+  
+  .tabla-estilizada th, .tabla-estilizada td {
+    border: 1px solid #010101;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .tabla-estilizada th {
+    background-color: #060606;
+    color: #100f0f;
+  }
+  .tabla-estilizada tr:Nombre Participante th {
+    background-color: #4CAF50;
+    color: #17ec0f;
+  }
+
+  .encabezado-participante {
+    background-color: #f08706;
+    color: #222;
+  }
+  
+  .encabezado-nickname {
+    background-color: #f08706;
+    color: #222;
+  }
+
+  h1 {
+    text-align: center;
+  }
+  h2 {
+    text-align: center;
+  color: #edf4ec;
+}
+
+  .abajo {
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    background-color: #ccc;
+    text-align: center;
+    z-index: 2;
+  
+  }
+  
+  header, div {
+    position: relative;
+    z-index: 1;
+ }
+ body {
+    background-image: url('https://htmlcolorcodes.com/assets/images/html-color-codes-color-tutorials-hero.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+ }
+
+ 
+  
+  .formulario {
+    width: 500px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .formulario h3 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .campo {
+    margin-bottom: 10px;
+  }
+  
+  label {
+    display: inline-block;
+    width: 150px;
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  input,
+  select,
+  textarea {
+    width: 300px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+
+  .premio {
+    position: absolute;
+    top: 50%;
+    right: 50px;
+    transform: translate(0, -50%);
+  }
+  
+  .tamañopremio {
+    width: 250px;
+    
+
+  }
+
+  p {
+   color: #f0bf10;
+   background-color: #f30a0a;
+  }
+
+header {
+text-align: center;
+}
+.animacion img {
+  animation: girar 2s ease-in-out infinite;
+}
+
+@keyframes girar {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
